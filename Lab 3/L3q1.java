@@ -5,15 +5,15 @@ class L3q1 {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
 
-        for (int num : nums) {
-            if (num < min) min = num;
-            if (num > max) max = num;
+        for (int i =0 ; i < nums.length ; i++) {
+            if (nums[i] < min) min = nums[i];
+            if (nums[i] > max) max = nums[i];
         }
         return new int[]{max, min};
     }
 
     public static void main(String[] args) {
-        int[] nums = {1, 5, 7, 2, 9, 3};
-        System.out.println(Arrays.toString(findMinMax(nums))); 
+        int[] is = {1, 5, 7, 2, 9, 3};
+        System.out.println(Arrays.toString(findMinMax(is))); 
     }
 }
