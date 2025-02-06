@@ -1,21 +1,17 @@
 class Customer {
     private double balance = 0.0;
-
-    
     public void addBalance(double amount) {
         if (amount > 0) {
             balance += amount;
             System.out.println("Added balance: $" + amount);
         }
     }
-
     public void addBalance(int amount) {
         if (amount > 0) {
             balance += amount;
             System.out.println("Added balance (int): $" + amount);
         }
     }
-
     protected void deductBalance(double amount) {
         if (amount > 0 && balance >= amount) {
             balance -= amount;
@@ -24,12 +20,10 @@ class Customer {
             System.out.println("Insufficient funds or invalid amount to deduct.");
         }
     }
-
     void showBalance() {
         System.out.println("Current Balance: $" + balance);
     }
 }
-
 class CustomerModifier {
     public void performDeduction(Customer customer, double amount) {
         customer.deductBalance(amount);
