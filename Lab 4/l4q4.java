@@ -1,21 +1,21 @@
 class Car {
-    String make, model;
+    String company, model;
     int year;
 
     Car(String make, String model, int year) {
-        this.make = make;
+        this.make = company;
         this.model = model;
         this.year = year;
     }
 
     void displayCar() {
-        System.out.println("Car Make: " + make + ", Model: " + model + ", Year: " + year);
+        System.out.println("Car company " + company + "with Model " + model + "and year of launch : " + year);
     }
 }
 
 public class l4q4{
     public static void main(String[] args) {
-        Car myCar = new Car("Tesla", "Model 3", 2025);
+        Car myCar = new Car("Maruti", "Swift Dzire", 2024);
         myCar.displayCar();
     }
 }
