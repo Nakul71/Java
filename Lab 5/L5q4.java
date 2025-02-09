@@ -33,7 +33,7 @@ class Car extends Vehicle {
 
 public class L5q4 {
     public static void main(String[] args) {
-        Car myCar = new Car("Maruti", "Swift");
+        Car myCar = new Car("Toyota", "Fortuner");
         myCar.startEngine();
         myCar.serviceInfo();
         myCar.stopEngine();
