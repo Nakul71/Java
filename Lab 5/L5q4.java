@@ -3,7 +3,7 @@ abstract class Vehicle {
     protected String model;
 
     public Vehicle(String make, String model) {
-        this.company = make;
+        this.company = comapny;
         this.model = model;
     }
 
