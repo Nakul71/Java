@@ -1,10 +1,10 @@
 class Employee {
-    private String name;
-    private int empid;
-    private double salary;
+    String name;
+    int empid;
+    double salary;
 
     public Employee() {
-        this.name = "xyz";
+        this.name = null;
         this.empid = 0;
         this.salary = 0.0;
     }
@@ -15,14 +15,6 @@ class Employee {
         this.salary = salary;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public double getSalary() {
-        return salary;
-    }
-
     public void increaseSalary(double percentage) {
         if (percentage > 0) {
             this.salary += this.salary * (percentage / 100);
@@ -31,25 +23,22 @@ class Employee {
 }
 
 class Manager extends Employee {
-    private String department;
+    String department;
 
     public Manager(String name, int empid, double salary, String department) {
         super(name, empid, salary);
         this.department = department;
     }
 
-    public String getDepartment() {
-        return department;
-    }
 }
 
 public class L5q2 {
     public static void main(String[] args) {
         Employee emp = new Employee("Nakul Yadav", 1, 500000);
-        System.out.println("Employee Name: " + emp.getName());
-        System.out.println("Employee Salary: " + emp.getSalary());
+        System.out.println("Employee Name: " + emp.name());
+        System.out.println("Employee Salary: " + emp.salary());
         emp.increaseSalary(10);
-        System.out.println("Updated Salary: " + emp.getSalary());
+        System.out.println("Updated Salary: " + emp.salary());
 
         Manager mgr = new Manager("Angel Kwatra", 2, 7000000, "IT");
         System.out.println("Manager Name: " + mgr.getName());
