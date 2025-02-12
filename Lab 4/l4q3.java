@@ -19,7 +19,7 @@ public class l4q3{
     public static void main(String[] args) {
         Club.displayClubName();
         Club member1 = new Club("Nakul");
-        Club member2 = new Club("Dev");
+        Club member2 = new Club("Devansh");
         member1.displayMember();
         member2.displayMember();
     }
