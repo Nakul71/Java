@@ -2,8 +2,8 @@ class Car {
     String company, model;
     int year;
 
-    Car(String make, String model, int year) {
-        this.make = company;
+    Car(String company, String model, int year) {
+        this.company = company;
         this.model = model;
         this.year = year;
     }
