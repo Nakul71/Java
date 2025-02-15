@@ -89,7 +89,7 @@ class GraduateStudent extends Student {
 public class L5q3 {
     public static void main(String[] args) {
         Person[] people = new Person[2];
-        people[0] = new Professor("Nakul", 40, "Upes Kandoli Ddn", "p011", "Computer Science", "Cloud Computing");
+        people[0] = new Professor("Nakul", 30, "Upes Kandoli Ddn", "p011", "Computer Science", "Cloud Computing");
         people[1] = new GraduateStudent("Devansh", 20, "Alwar Rajasthan", "s120", "Btech. Computer Science", "Cyber Security");
 
         for (Person person : people) {
