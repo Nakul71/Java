@@ -1,4 +1,4 @@
-package LAB_7;
+package Lab 7;
 
 interface Vehicle {
     void start();
@@ -38,7 +38,7 @@ class Motorcycle implements Vehicle {
     }
 }
 
-public class VehicleDemo {
+public class L7q2 {
     public static void main(String[] args) {
         Vehicle car = new Car();
         Vehicle motorcycle = new Motorcycle();
