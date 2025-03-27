@@ -1,4 +1,4 @@
-package LAB_7;
+package lab 7;
 
 
 abstract class Solid {
@@ -32,7 +32,7 @@ class Sphere extends Solid {
     }
 }
 
-public class SolidDemo {
+public class L7q3 {
     public static void main(String[] args) {
         Solid cuboid = new Cuboid(3, 4, 5);
         Solid sphere = new Sphere(2);
