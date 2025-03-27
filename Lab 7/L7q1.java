@@ -32,7 +32,7 @@ class Sphere extends Solid {
     }
 }
 
-public class L7q3 {
+public class L7q1 {
     public static void main(String[] args) {
         Solid cuboid = new Cuboid(3, 4, 5);
         Solid sphere = new Sphere(2);
