@@ -25,7 +25,7 @@ class DigitalWallet implements Wallet {
     }
 }
 
-public class L7q1 {
+public class L7q3 {
     public static void main(String[] args) {
         DigitalWallet myWallet = new DigitalWallet();
         myWallet.addFunds(100);
