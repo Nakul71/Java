@@ -1,4 +1,4 @@
-package LAB_7;
+package Lab 7;
 
 interface Remote {
     void powerOn();
@@ -21,7 +21,7 @@ class Television implements Remote {
     }
 }
 
-public class RemoteDemo {
+public class L7q4 {
     public static void main(String[] args) {
         Remote tv = new Television();
         tv.powerOn();
